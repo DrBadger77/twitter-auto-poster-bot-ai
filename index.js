@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a centre / centre left political x.com post, based on current events, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate an though provoking post containing political content, based on current events, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
