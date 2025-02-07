@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a though-provoking Twitter post about social inequality or economic inequality in the UK content, relevant to current events, it should not be vague and should be unique and include a hyperlink to a relevant news story from a reputable UK news website; under 200 characters and should be plain text, you can use emojis";
+    "Generate a thought-provoking and impactful Twitter post in UK English (under 200 characters including the link) about social and economic inequality in the UK. The post should be unique and not vague. The goal is to link to a reputable source (e.g., government statistics, a report from a respected organization, or a news article with data). Provide suggested search terms to help me find a relevant source. The post should be plain text, and emojis are allowed";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
