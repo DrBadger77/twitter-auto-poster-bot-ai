@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Generate a tweet about social and economic inequality in the UK.  Include a relevant statistic from a reputable source (e.g., ONS, IFS, Resolution Foundation, Joseph Rowntree Foundation) and link it to a current news headline or topic related to inequality (e.g., cost of living crisis, inflation, wage stagnation, poverty, wealth gap).  The tweet should be under 280 characters and include relevant hashtags (e.g., #Inequality #UKPolitics #CostOfLivingCrisis #Poverty #WealthGap).  Vary the statistic and headline each time. You may include emojis. The content should be in UK English and be a maximum of 250 characters including any links and emojis";
+    "Generate a tweet about social and economic inequality in the UK. Where possible, it should show that the decline in quality of life is related to tax avoidance by superrich people and corporations and contract that with the much less significant impact of immigration.  Include a relevant statistic from a reputable source (e.g., ONS, IFS, Resolution Foundation, Joseph Rowntree Foundation) and link it to a current news headline or topic related to inequality (e.g., cost of living crisis, inflation, wage stagnation, poverty, wealth gap).  The tweet should be under 280 characters and include relevant hashtags (e.g., #Inequality #UKPolitics #CostOfLivingCrisis #Poverty #WealthGap).  Vary the statistic and headline each time. You may include emojis. The content should be in UK English and be a maximum of 250 characters including any links and emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
