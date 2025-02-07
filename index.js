@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate an though provoking post about social inequality in the UK content, relevant to current events, it should not be vague and should be unique and link to new stories; under 200 characters and should be plain text, you can use emojis";
+    "generate a though-provoking Twitter post about social inequality or economic inequality in the UK content, relevant to current events, it should not be vague and should be unique and include a hyperlink to a relevant news story from a reputable UK news website; under 200 characters and should be plain text, you can use emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
